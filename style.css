@@ -14,7 +14,7 @@
   }
 
 /* Adjust color */
-.body first_page {
+.first_page {
     background: #d5d8dc;
 }
 
@@ -85,6 +85,7 @@ p {
 }
 
 .datasheet {
+  margin-top: 20px;
   margin-left: 30px;
   color: darkcyan;
   font-weight: bold;
