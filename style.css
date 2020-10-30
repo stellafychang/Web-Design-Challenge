@@ -60,6 +60,22 @@ h4{
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* 
+ */
+#compare{
+  margin-top: 20px;
+  margin-left: 80px;
+  color: darkcyan;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#compare_2{
+  margin-top: 20px;
+  margin-left: 120px;
+  color: darkcyan;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 /* Style for the data page */
 table {
