@@ -8,40 +8,48 @@
 }
 
 /* Getting rid of the default link styles here */
-.navbar li a {
+/* .navbar li a {
     color: #000;
     text-decoration: none;
-  }
+  } */
+
+  /* Nav home button style */
+
+.navbar-brand {
+  font-size: 20px;
+  background: darkcyan;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-light .navbar-brand {
+  color: white;
+  padding: 20px;
+}
 
 /* Adjust color */
 .first_page {
     background: #d5d8dc;
 }
 
-/* .container{
-  margin-right: 100px;
-  margin-left: 100px;
-} */
-
-.col-8{
+.col-md-8{
   margin-top: 30px;
   padding: 20px;
   background: white;
 }
 
-.col-8 img {
+.col-md-8 img {
     width: 450px;
     height: auto;
     float: left;
     padding: 0 10px 0 0;
 }
 
-.col-4{
+.col-md-4{
   margin-top: 30px;
-  padding: 20px;
+  padding : 20px;
   background: white;
 }
-.col-4 img{
+.col-md-4 img{
   width: 200px;
   height:auto;
   float: left;
@@ -60,8 +68,7 @@ h4{
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/* 
- */
+
 #compare{
   margin-top: 20px;
   margin-left: 80px;
