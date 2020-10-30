@@ -1,0 +1,57 @@
+/* Making our navbar li's inline-block elements */
+.navbar li {
+  display: inline-block;
+  padding: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Getting rid of the default link styles here */
+.navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+.container {
+    background: white;
+  }  
+
+/* Adjust color */
+body {
+    background: lightgray;
+}
+
+.container_2{
+  margin-right: 100px;
+  margin-left: 75px;
+}
+.col-8{
+  margin-top: 30px;
+  padding: 20px;
+  background: white;
+}
+
+.col-8 img {
+    width: 450px;
+    height: auto;
+}
+
+.col-4{
+  margin-top: 30px;
+  /* margin-left: 0.3in; */
+  padding: 20px;
+  background: white;
+}
+
+h3{
+  color: darkcyan;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h4{
+  color: darkcyan;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
