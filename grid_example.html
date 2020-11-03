@@ -1,36 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
-<body>
-    <center> 
-        <h1 style="color: green;">GeeksForGeeks</h1> 
-        <div class="row container"> 
-            <div class="col-md-4 col-sm-12"> 
-  
-                <!-- Nested! switch to row as screen gets smaller -->
-                <div class="row"> 
-                    <div class="col-md-12 col-sm-6" 
-                         style="background-color: yellow;"> 
-                        <h3>GeeksForGeeks is awesome!</h3> 
-                    </div> 
-                    <div class="col-md-12 col-sm-6" 
-                         style="background-color: yellowgreen;"> 
-                        <h3>GeeksForGeeks is actually for geeks!</h3> 
-                    </div> 
-                </div> 
+
+    <!DOCTYPE html> 
+    <html> 
+      
+    <head> 
+        <title>How to change Hamburger 
+          Toggler color in Bootstrap ?</title> 
+      
+        <!-- Include Bootstrap CSS -->
+        <link rel="stylesheet"
+              href= 
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
+        <style> 
+            /* Set the border color */ 
+              
+            .custom-toggler.navbar-toggler { 
+                border-color: lightgreen; 
+            } 
+            /* Setting the stroke to green using rgb values (0, 128, 0) */ 
+              
+            .custom-toggler .navbar-toggler-icon { 
+                background-image: url( 
+    "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 128, 0, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+            } 
+        </style> 
+    </head> 
+      
+    <body> 
+        <nav class="navbar navbar-dark bg-dark"> 
+            <a href="/" class="navbar-brand">Custom Toggler</a> 
+            <button class="navbar-toggler ml-auto custom-toggler" 
+                    type="button" 
+                    data-toggle="collapse" 
+                    data-target="#nav3"> 
+                <span class="navbar-toggler-icon"></span> 
+            </button> 
+            <div class="navbar-collapse collapse" id="nav3"> 
+                <ul class="navbar-nav mx-auto"> 
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Link 1</a> 
+                    </li> 
+                    <li class="nav-item"> 
+                        <a class="nav-link" href="#">Link 2</a> 
+                    </li> 
+                </ul> 
             </div> 
-            <div class="col-md-8 col-sm-12" 
-                 style="background-color: tomato;"> 
-                <h3>I will switch to row as the screen goes smaller!</h3> 
-            </div> 
+        </nav> 
+      
+        <div class="container"> 
+            <h1 style="color: green">GeeksforGeeks</h1> 
+            <b>How to change Hamburger Toggler color in Bootstrap ?</b> 
+            <p>The above togglers use the a custom classe for the toggler.</p> 
         </div> 
-    </center> 
+    
+      
+    </html> 
+    
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>

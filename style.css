@@ -153,6 +153,12 @@ tr:nth-child(even) {
     padding: 0 10px 0 0;
 }
   .bg-light {
-      background-color: darkcyan!important;
+    background-color: darkcyan!important;
   }
+ 
+  .collapse.navbar-collapse{
+    background-color: white; 
+  }
+
+  
 }
