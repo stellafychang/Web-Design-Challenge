@@ -59,7 +59,6 @@
   padding: 5px;
 }
 
-
 .col-md-4{
   margin-top: 30px;
   padding : 20px;
@@ -102,7 +101,11 @@ h4{
 .figure {
   border: 3px solid darkcyan;
 }
+/* p {
+  font-family: arial, sans-serif;
+  margin-left: 30px;
 
+} */
 /* Style for the Contact page */
 
 /* Style for the data page */
@@ -133,7 +136,7 @@ tr:nth-child(even) {
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
-@media (max-width: 480px) {
+@media (max-width: 576px) {
  
   #first_column img{
     width: 200px;
@@ -149,6 +152,7 @@ tr:nth-child(even) {
     float: left;
     padding: 0 10px 0 0;
 }
-
-
+  .bg-light {
+      background-color: darkcyan!important;
+  }
 }
