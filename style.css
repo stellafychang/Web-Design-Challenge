@@ -6,12 +6,12 @@
   margin-left: 10px;
   cursor: pointer;
 }
-.navbar-expand-lg.navbar-light.bg-light > .container-fluid > a 
+.navbar-expand-lg.navbar-light.bg-light.fixed-top.py-lg-0 > .container-fluid > a 
 {
   padding:12px; 
   padding-bottom:12px;
 }
-.navbar-expand-lg.navbar-light.bg-light {
+.navbar-expand-lg.navbar-light.bg-light.fixed-top.py-lg-0 {
   padding-top: 0px;
   padding-bottom: 0px;
 }
@@ -43,21 +43,31 @@
     float: left;
     padding: 0 10px 0 0;
 }
+.col-md-6 img{
+  text-align: center;
+  width: 200px;
+  height: auto;
+  width:100%;
+ 
+}
+
+#first_column img{
+  width: 200px;
+  height: auto;
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+
 .col-md-4{
   margin-top: 30px;
   padding : 20px;
   background: white;
 }
+
 .col-md-4 > a {
   cursor:pointer;
-}
-
-.col-md-4 img{
-  width: 200px;
-  height:auto;
-  float: left;
-  width: 50%;
-  padding: 5px;
 }
 
 h3{
@@ -77,41 +87,23 @@ h4{
   padding: 20px;
   background: white;
 }
+.col-sm-6{
+  padding: 20px;
+}
+#compare{
+  margin-left: 100px;
+}
 
-.col-md-12 img{
-  width: 200px;
-  height:auto;
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-/* #compare{
-  margin-top: 20px;
-  margin-left: 80px;
-  color: darkcyan;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
 #compare_2{
-  margin-top: 20px;
   margin-left: 120px;
-  color: darkcyan;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-} */
+}
 
 /* Style for the visualization page */
-/* figure {
-  border: 1px solid darkcyan;
-  padding: 5px;
-} */
+.figure {
+  border: 3px solid darkcyan;
+}
 
 /* Style for the Contact page */
-.col-md-6{
-  margin-top: 30px;
-  padding: 20px;
-  background: white;
-}
 
 /* Style for the data page */
 table {
@@ -131,39 +123,32 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-p {
+.col-md-4 > #contact_p {
   font-family: arial, sans-serif;
-  margin-left: 30px;
 }
 
-.datasheet {
-  margin-top: 20px;
+#first_paragraph {
+  font-family: arial, sans-serif;
   margin-left: 30px;
-  color: darkcyan;
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
 @media (max-width: 480px) {
  
-  .col-md-4 img{
+  #first_column img{
     width: 200px;
     height:auto;
     float: left;
     width: 25%;
     padding: 5px;
   }
-  .col-md-12 img{
-    width: 200px;
-    height:auto;
+
+  .col-md-7 img {
+    width: 350px;
+    height: auto;
     float: left;
-    width: 100%;
-    padding: 5px;
-  }
-  /* .navbar-expand-lg.navbar-light.bg-light > .container-fluid > a  {
-    background-color: darkcyan;
-    padding: 20px;
-  } */
-  
+    padding: 0 10px 0 0;
+}
+
+
 }

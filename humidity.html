@@ -1,80 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Project</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class= "backgroud_gray">
-<nav class=" navbar navbar-expand-lg navbar-light bg-light fixed-top py-lg-0 "> 
-  <a class="navbar-brand" href="https://changrita1114.github.io/Web-Design-Challenge/">Latitude</a> 
-  <button class="navbar-toggler" type="button"
-      data-toggle="collapse"
-      data-target="#navbarResponsive"
-      aria-controls="navbarResponsive"
-      aria-expanded="false"
-      aria-label="Toggle navigation"> 
-      <span class="navbar-toggler-icon"></span> 
-  </button> 
 
-  <div class="collapse navbar-collapse"id="navbarResponsive"> 
-    <ul class="navbar-nav ml-auto"> 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humidity</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="backgroud_gray">
+  <nav class=" navbar navbar-expand-lg navbar-light bg-light fixed-top py-lg-0 ">
+    <a class="navbar-brand" href="https://changrita1114.github.io/Web-Design-Challenge/">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+      aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+            aria-expanded="false">Plots</a>
           <div class="dropdown-menu">
-            <a class="dropdown-item" href="https://changrita1114.github.io/Web-Design-Challenge/temp">Max Temperature</a>
+            <a class="dropdown-item" href="https://changrita1114.github.io/Web-Design-Challenge/temp">Max
+              Temperature</a>
             <a class="dropdown-item" href="https://changrita1114.github.io/Web-Design-Challenge/humidity">Humidity</a>
-            <a class="dropdown-item" href="https://changrita1114.github.io/Web-Design-Challenge/cloudiness">Cloudiness</a>
+            <a class="dropdown-item"
+              href="https://changrita1114.github.io/Web-Design-Challenge/cloudiness">Cloudiness</a>
             <a class="dropdown-item" href="https://changrita1114.github.io/Web-Design-Challenge/wind">Wind Speed</a>
           </div>
-      </li>
-      <li class="nav-item"> 
-        <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/comparison.html">Comparison</a> 
-      </li> 
-      <li class="nav-item"> 
-        <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/data">Data</a> 
-      </li> 
-      <li class="nav-item"> 
-        <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/contact">Contact</a> 
-      </li> 
-    </ul> 
-  </div> 
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/comparison.html">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/data">Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://changrita1114.github.io/Web-Design-Challenge/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
-<br>
-<br>
-<br>
-<div class="container-fluid">
-  <div class="row justify-content-around"> 
-    <div class="col-md-7">
+  <br>
+  <br>
+  <br>
+  <div class="container-fluid">
+    <div class="row justify-content-around">
+      <div class="col-md-7">
         <h3 class="datasheet">Humidity</h3>
         <hr>
-        <img src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/02_Latitude%20vs.%20Humidity%20Plot.png?raw=true" alt="Latitude vs. Humidity">
+        <img
+          src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/02_Latitude%20vs.%20Humidity%20Plot.png?raw=true"
+          alt="Latitude vs. Humidity">
         <p>Humidity is not related to latitude changes.</p>
-    </div>
-    
-    <div class="col-md-4">
-        <h4 id="visualization">Visualizations</h4>
-        <hr>
-        <a href="https://changrita1114.github.io/Web-Design-Challenge/temp">
-          <img src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/01_Latitude%20vs.%20Temperature%20Plot.png?raw=true" alt="Latitude vs. Max Temperature">
-        </a>
-        <a href="https://changrita1114.github.io/Web-Design-Challenge/humidity">
-          <img src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/02_Latitude%20vs.%20Humidity%20Plot.png?raw=true" alt="Latitude vs. Humidity">
-        </a> 
-        <a href="https://changrita1114.github.io/Web-Design-Challenge/cloudiness">
-          <img src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/03_Latitude%20vs.%20Cloudiness%20Plot.png?raw=true" alt="Latitude vs. Cloudiness">
-        </a> 
-        <a href="https://changrita1114.github.io/Web-Design-Challenge/wind">
-          <img src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/04_Latitude%20vs.%20Wind%20Speed%20Plot.png?raw=true" alt="Latitude vs. Wind">
-        </a>
+      </div>
+
+      <div class="col-md-4">
+        <div class="row">
+          <h4 id="visualization">Visualizations</h4>
+          <hr>
+          <br>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <a
+              href="https://changrita1114.github.io/Web-Design-Challenge/temp">
+              <img 
+                src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/01_Latitude%20vs.%20Temperature%20Plot.png?raw=true"
+                alt="Latitude vs. Max Temperature"
+              />
+            </a>
+          </div>
+          <div class="col-md-6">
+            <a
+              href="https://changrita1114.github.io/Web-Design-Challenge/humidity"
+            >
+              <img class="figure"
+                src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/02_Latitude%20vs.%20Humidity%20Plot.png?raw=true"
+                alt="Latitude vs. Humidity"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+          <a
+            href="https://changrita1114.github.io/Web-Design-Challenge/cloudiness"
+          >
+            <img 
+              src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/03_Latitude%20vs.%20Cloudiness%20Plot.png?raw=true"
+              alt="Latitude vs. Cloudiness"
+            />
+          </div>
+          <div class="col-md-6"> 
+          </a>
+          <a href="https://changrita1114.github.io/Web-Design-Challenge/wind">
+            <img
+              src="https://github.com/changrita1114/Web-Design-Challenge/blob/main/WebVisualizations/assets/04_Latitude%20vs.%20Wind%20Speed%20Plot.png?raw=true"
+              alt="Latitude vs. Wind"
+            />
+          </a>
+          </div>
+        </div>
       </div>
     </div>
-</div>
- <!-- jQuery first, then Popper.js, then Bootstrap JS -->
- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </div>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
