@@ -106,10 +106,12 @@ h4{
   border: 3px solid darkcyan;
 }
 
-/* p {
-  font-family: arial, sans-serif;
-  margin-left: 30px;
-} */
+.col-ms-12 img {
+  width: 50%;
+  width: 180px;
+  height: auto;
+  margin-left: 15px;
+}
 
 /* Style for the data page */
 table {
