@@ -1,13 +1,13 @@
 ## Web-Design-Challenge
-### Latitude - Latitude Analysis Dashboard with Attitude
-For this project, a visualization dashboard website using visualizations which was created in the [weather project](https://github.com/changrita1114/python-api-challenge). Specifically, the weather data was plotted.
-In building this dashboard,the individual pages for each plot were created and a means by which users can navigate between them. These pages contain the visualizations and their corresponding explanations. There is a landing page as well, a page where users can see a comparison of all of the plots, and another page where users can view the data used to build them.
+### Latitude - Latitude Analysis Dashboard
+For this project, a visualization dashboard website using visualizations was created in the [weather project](https://github.com/changrita1114/python-api-challenge). Specifically, the weather data was plotted.
+In building this dashboard,the individual pages for each plot and a means by which users can navigate between them were created. These pages contain the visualizations and their corresponding explanations. There is a landing page as well, a page where users can see a comparison of all of the plots, and another page where users can view the data used to build them.
 #### Website Design
 The website consists of 8 pages total, including:
 * A "Landing" page containing:
 
     * An explanation of the project.
-    * Links to each visualizations page. There is a sidebar containing preview images of each plot, and clicking an image will take the user to that visualization.
+    * Links to each visualization page. There is a sidebar containing preview images of each plot, and clicking an image will take the user to that visualization.
 
 * Four "Visualization" pages, each with:
 
@@ -24,7 +24,7 @@ The website consists of 8 pages total, including:
 
     * Displays a responsive table containing the data used in the visualizations.
 
-      * The table is a bootstrap table component.
+      * The table is a Bootstrap table component.
 
       * The data came from exporting the .csv file as HTML, and a Pandas function called to_html was used to generate a HTML table.
 
