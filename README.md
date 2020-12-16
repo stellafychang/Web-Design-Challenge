@@ -8,17 +8,20 @@ The website consists of 8 pages total, including:
 
     * An explanation of the project.
     * Links to each visualization page. There is a sidebar containing preview images of each plot, and clicking an image will take the user to that visualization.
+![landing_page](WebVisualizations/assets/05_landing_page.png)
 
 * Four "Visualization" pages, each with:
 
     * A descriptive title and heading tag.
     * The plot/visualization itself for the selected comparison.
     * A paragraph describing the plot and its significance.
+![visualization_pages](WebVisualizations/assets/06_visualization.png)
 
 * A "Comparisons" page that:
 
     * Contains all of the visualizations on the same page so users can easily visually compare them.
     * A Bootstrap grid was used for the visualizations.
+![visualization_pages](WebVisualizations/assets/07_comparison.png)
 
 * A "Data" page that:
 
@@ -27,9 +30,11 @@ The website consists of 8 pages total, including:
       * The table is a Bootstrap table component.
 
       * The data came from exporting the .csv file as HTML, and a Pandas function called to_html was used to generate a HTML table.
+![visualization_pages](WebVisualizations/assets/08_data.png)
 
 * A "Contact" page that:
     * Includes the disclaimer and author contact information.
+![visualization_pages](WebVisualizations/assets/09_contact.png)
 
 The website, at the top of every page, has a navigation menu that:
 
